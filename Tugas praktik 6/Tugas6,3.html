@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktik 6.3</title>
+</head>
+<style>
+    #header{
+        width:650px;
+        margin: 10px 20px;
+        height: 60px;
+        display: flex;
+        padding-left: 650px;
+        background-color: aqua;
+    }
+
+
+    #main{
+        display: inline-flexbox;
+    }
+
+    .aside{
+        background-color: rgb(28, 128, 118);
+        display: inline-flex;
+        height: 450px;
+        width: 300px;
+        margin: 10px 20px;
+    }
+
+    #article{
+        background-color: rgb(230, 224, 223);
+        display: inline-flex;
+        height: 450px;
+        width: 980px;
+        
+    }
+
+    .image1{
+        padding-right: 25px;
+        padding-top: 250px;
+    }
+
+    .image2{
+        padding-top: 250px;
+    }
+
+    .image3{
+        padding-left: 25px ;
+        padding-top: 250px;
+    }
+
+    #footer{
+        width:650px;
+        margin: 10px 20px;
+        height: 70px;
+        display: flex;
+        padding-left: 650px;
+        background-color: aqua;
+    }
+</style>
+
+<body style="background-color: rgb(240, 136, 118);">
+    <div id="header">
+        <p><b>Header</b></p>
+    </div>
+
+    <div id="main">
+        <div class="aside">
+            <p><b>Aside</b></p>
+        </div>
+
+        <div id="article">
+            <p><b>Article</b></p>
+            <div class="image1">
+                <img src="Penguin1.jpg" alt="">
+            </div>
+
+            <div class="image2">
+                <img src="Penguin2.jpg" alt="">
+            </div>
+
+            <div class="image3">
+                <img src="Penguin3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p><b>Footer</b></p>
+    </div>
+</body>
+</html>
